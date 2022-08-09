@@ -1,5 +1,7 @@
-
 package livraria;
+
+
+   
 
 public final class Livro
 {
@@ -9,7 +11,7 @@ public final class Livro
     private String ISBN;
     private int numPaginas;
     private float valorCompra;
-   
+
     public Livro()
     { }
 
@@ -59,6 +61,6 @@ public final class Livro
 
     public void setValorCompra(float valorCompra)
     { this.valorCompra = valorCompra; }
-   
+
 }
 

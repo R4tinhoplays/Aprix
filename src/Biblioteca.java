@@ -1,8 +1,4 @@
-
 import livraria.Livro;
-
-
-
 
 
 public final class Biblioteca {
@@ -12,7 +8,7 @@ public final class Biblioteca {
     private Livro[] livros;
     private int quantidade;
     private String Localização;
-   
+
     public Biblioteca()
     { }
 
@@ -49,6 +45,7 @@ public final class Biblioteca {
         livros = new Livro[capacidade];
     }
    
+    
     public void incluirLivro(Livro livro)
     {
         /*for(int i=0;i<getCapacidade();i++)
@@ -64,7 +61,7 @@ public final class Biblioteca {
             livros[quantidade-1] = livro;
         }
     }
-   
+
     public Livro obterLivro(int cod)
     {
         for(int i=0;i<quantidade;i++)
@@ -73,7 +70,7 @@ public final class Biblioteca {
                     return livros[i];
         return null;
     }
-   
+
     public Livro obterLivro(String tit)
     {
         for(int i=0;i<quantidade;i++)
@@ -90,7 +87,5 @@ public final class Biblioteca {
         else
             return null;
     }
-   
-}
-    
 
+}
